@@ -1,0 +1,17 @@
+UPDATE etudiants
+SET email = 'labe.pierre@example.com'
+WHERE id_etudiant = 1;
+UPDATE cours
+SET nom_cours = 'Mathématiques avancées'
+WHERE id_cours = 1;
+DELETE FROM inscriptions
+WHERE id_etudiant = 3;
+DELETE FROM etudiants
+WHERE id_etudiant = 3;
+DELETE FROM inscriptions
+WHERE id_cours = 2;
+DELETE FROM cours
+WHERE id_cours = 2;
+
+mise a jour https://dev.mysql.com/doc/refman/8.0/en/update.html
+suprimer https://dev.mysql.com/doc/refman/8.0/en/delete.html
