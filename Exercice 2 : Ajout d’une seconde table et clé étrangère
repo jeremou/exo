@@ -1,0 +1,12 @@
+CREATE TABLE cours (
+    id_cours INT AUTO_INCREMENT,
+    nom_cours VARCHAR(100),
+    PRIMARY KEY (id_cours)
+);
+CREATE TABLE inscriptions (
+    id_etudiant INT,
+    id_cours INT,
+    PRIMARY KEY (id_etudiant, id_cours),
+    FOREIGN KEY (id_etudiant) REFERENCES etudiants(id_etudiant),
+    FOREIGN KEY (id_cours) REFERENCES cours(id_cours)
+);
