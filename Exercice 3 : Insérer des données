@@ -1,8 +1,8 @@
 INSERT INTO etudiants (nom, prenom, email)
 VALUES
-    ('labe', 'pierre', 'john.doe@example.com'),
-    ('zinedine', 'ziadane', 'jane.smith@example.com'),
-    ('milen', 'farme', 'bob.johnson@example.com');
+    ('labe', 'pierre', 'labe.pierre@example.com'),
+    ('zinedine', 'ziadane', 'zidane.ziadane@example.com'),
+    ('milen', 'farme', 'milen.farme@example.com');
 INSERT INTO cours (nom_cours)
 VALUES
     ('Mathématiques'),('Physique'),('Informatique');
