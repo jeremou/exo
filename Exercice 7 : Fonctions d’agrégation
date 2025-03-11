@@ -1,0 +1,10 @@
+SELECT COUNT(*) AS nb_etudiants
+FROM etudiants;
+SELECT COUNT(*) AS nb_cours
+FROM cours;
+SELECT c.nom_cours, COUNT(i.id_etudiant) AS nb_inscrits
+FROM inscriptions i
+JOIN cours c ON i.id_cours = c.id_cours
+GROUP BY c.nom_cours;
+https://sql.sh/fonctions/agregation/count
+https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html
