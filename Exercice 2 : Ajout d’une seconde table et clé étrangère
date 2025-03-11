@@ -10,3 +10,4 @@ CREATE TABLE inscriptions (
     FOREIGN KEY (id_etudiant) REFERENCES etudiants(id_etudiant),
     FOREIGN KEY (id_cours) REFERENCES cours(id_cours)
 );
+--https://dev.mysql.com/doc/refman/8.0/en/create-table-foreign-keys.html
