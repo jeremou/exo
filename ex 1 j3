@@ -1,3 +1,17 @@
-SELECT * 
+select*
 FROM etudiants 
 WHERE id_etudiant IN (1, 3, 5);
+
+select*
+from cours
+where id-cours BETWEEN 1 and 10;
+
+select*
+from etudiant
+where id_etudiant like '&e&';
+//https://www.datacamp.com/fr/doc/mysql/mysql-like
+
+SELECT * 
+FROM etudiants 
+WHERE adresse IS NULL;
+//https://www.datacamp.com/fr/doc/mysql/mysql-is-null
