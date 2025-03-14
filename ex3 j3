@@ -1,0 +1,7 @@
+SELECT *
+FROM etudiants
+ORDER BY nom, prenom;
+
+SELECT *
+FROM cours
+ORDER BY id_cours DESC;
